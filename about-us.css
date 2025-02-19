@@ -1,0 +1,27 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #4169E1, #191970);
+    color: #b3e5fc;
+    scroll-behavior: smooth;
+}
+
+/* Header */
+header {
+    background: #033f63;
+    color: #b3e5fc; 
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background: #004080;
+    color: #b3e5fc;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
