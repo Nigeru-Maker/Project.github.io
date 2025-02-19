@@ -3,3 +3,19 @@
     top: 20px;
     right: 30px;
 }
+
+#account a {
+    padding: 8px 16px;
+    background: #004080;
+    color: #b3e5fc;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-left: 10px;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+#account a:hover {
+    background: #00264d;
+    transform: scale(1.05);
+}
