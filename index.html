@@ -6,16 +6,21 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Welcome to Our Cleaning Solutions</h1>
-        <nav>
-            <ul>
-                <li><a href="about.html" class="btn">About Us</a></li> <!-- Link to About Us page -->
-                <li><a href="#services" class="btn">Our Products</a></li>
-                <li><a href="#contact" class="btn">Contact Us</a></li>
-            </ul>
-        </nav>
-    </header>
+<header>
+    <h1>Welcome to Our Cleaning Solutions</h1>
+    <nav>
+        <ul>
+            <li><a href="about.html" class="btn">About Us</a></li>
+            <li><a href="#services" class="btn">Our Products</a></li>
+            <li><a href="#contact" class="btn">Contact Us</a></li>
+        </ul>
+    </nav>
+    <!-- Customer Account Section -->
+    <div class="account-section">
+        <a href="login.html" class="account-btn">Login</a>
+        <a href="register.html" class="account-btn">Register</a>
+    </div>
+</header>
 
     <section id="hero">
         <h2>Effective & Gentle Cleaning Solutions</h2>
@@ -25,12 +30,14 @@
 
     <section id="services">
         <h2>Our Products</h2>
-        <div class="services-container">
-            <div class="service">
+        <div class="product-container">
+            <div class="product-card">
+                <img src="dishwashing.jpg" alt="Dishwashing Liquid">
                 <h3>Dishwashing Liquid</h3>
                 <p>Powerful grease-cutting formula that leaves your dishes spotless.</p>
             </div>
-            <div class="service">
+            <div class="product-card">
+                <img src="handwashing.jpg" alt="Handwashing Bar">
                 <h3>Handwashing Bar</h3>
                 <p>Gentle on hands, tough on germs, and available in various scents.</p>
             </div>
@@ -60,4 +67,3 @@
     <script src="script.js"></script>
 </body>
 </html>
-
