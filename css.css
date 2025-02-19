@@ -1,0 +1,142 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #4169E1, #191970);
+    color: #b3e5fc;
+    scroll-behavior: smooth;
+}
+
+/* Header */
+header {
+    background: #033f63;
+    color: #b3e5fc; 
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #b3e5fc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero Section */
+#hero {
+    text-align: center;
+    padding: 50px;
+    background: #28666e;
+    color: #b3e5fc;
+}
+
+#hero h2 {
+    font-size: 2rem;
+}
+
+/* Button Style */
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    margin-top: 10px;
+    background: #004080;
+    color: #b3e5fc;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.btn:hover {
+    background: #00264d;
+    transform: scale(1.05);
+}
+
+/* About Us */
+#about {
+    text-align: center;
+    padding: 30px;
+    background: #7c9885;
+    color: #b3e5fc;
+}
+
+/* Services Section */
+#services {
+    padding: 50px;
+    text-align: center;
+    background: #b5b682;
+    color: #002b5c;
+}
+
+.services-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.service {
+    background: #002b5c;
+    padding: 40px;
+    border-radius: 5px;
+    width: 45%;
+    max-width: 300px;
+    text-align: center;
+    color: #b3e5fc;
+}
+
+/* Contact */
+#contact {
+    padding: 30px;
+    text-align: center;
+    background: #fedc97;
+    color: #002b5c;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #004080;
+    border-radius: 5px;
+    background: #fff;
+    color: #333;
+}
+
+button {
+    background: #004080;
+    color: #b3e5fc;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #00264d;
+}
+
+/* Footer */
+footer {
+    background: #033f63;
+    color: #b3e5fc;
+    text-align: center;
+    padding: 10px 0;
+}
